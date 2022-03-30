@@ -1,0 +1,5 @@
+/node_modules
+/
+.vscodr
+package-lock.json
+.DC_Store
