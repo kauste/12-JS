@@ -45,7 +45,7 @@ for (let i = 0; i < 3; i++) {
 console.log('END')
 
 console.log('START')
-for (let i=0; i < pazymiai.length; i++) { 
+for (let i = 0; i < pazymiai.length; i++) { 
     const pazymys = pazymiai[i]
     console.log(pazymys)
 }
@@ -61,3 +61,20 @@ for (let i=0; i < pazymiai.length; i++) {
 console.log('END')
 console.log('Suma', suma)
 console.log('Vidurkis', vidurkis)
+
+console.log('---------------------')
+
+for(let i = -80; i < -60; i++) {
+    console.log(i)
+}
+
+suma = 0;
+console.log('---------------------')
+const nuo = -80;
+const iki = -70;
+for(let i = nuo; i < iki; i++) {
+    suma += i; 
+    console.log(i)
+}
+console.log('Suma', suma)
+console.log(suma / (iki - nuo))
