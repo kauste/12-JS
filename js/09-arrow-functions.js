@@ -20,8 +20,8 @@ function atimtis (a, b) {
 const r4 = atimtis(pirmas, antras);
 console.log(r4);
 
-console.log('-------ANONIMINE FUNKCIJA---------')
-// kintamajam skirta anonimine funkcija. funkcijai priskirta konstanta. tada zo
+console.log('-------ANONIMINE/ BEVARDE FUNKCIJA---------')
+// kintamajam skirta anonimine/ bevarde funkcija. funkcijai priskirta konstanta. tada zo
 
 const atimtele = function (a, b)  {
     return a - b
@@ -55,33 +55,50 @@ const daugyba1 = (a, b) => {
 const r9 = daugyba1(pirmas, antras);
 console.log(r9);
 
-// jei logikos bloke yra tik 1 procedura, pvz, (a * b), tai galime nerasyti {} ir return. grieztai tik siuo atveju
+// jei logikos bloke yra tik 1 procedura, pvz, (a * b), tai galime nerasyti {} ir return ABIEJU, grieztai, tik siuo atveju
 
 const daugyba2 = (a, b) =>  a * b;
 const r10 = daugyba1(pirmas, antras);
 console.log(r10);
 
 // jei logikos bloke {} yra tik  1 procedura, galima nerasyti {} ir return
-const daugyba = (a, b) =>  a * b
-const r11 = daugyba(88,22)
-console.log(r11)
+const daugyba = (a, b) =>  a * b;
+const r11 = daugyba(88,22);
+console.log(r11);
 
 console.log('-------KVADRATU---------')
 // kvadratu. jei parametru bloke yra tik 1 parametras, galime nerasyti (). bet jei nera nei vieno parametro reikia 0
 
 const kvadratu = a =>  a * a  // a = a **2
-const r12 = kvadratu(pirmas)
-console.log(r12)
+const r12 = kvadratu(pirmas);
+console.log(r12);
 
-const tekstas = 'Labas rytas' 
+const tekstas = 'Labas rytas';
 function pirmaRaide(text) {
     return text[0];
 }
 console.log(pirmaRaide(tekstas));
 
-const tekstukas =  'Labas rytas' 
-function pirmaRaide(text) {
+const  pirmaRaide2 = function (text) {
     return text[0];
 }
-console.log(pirmaRaide(tekstukas));
+console.log(pirmaRaide2(tekstas));
+
+//arrow
+
+const  pirmaRaide3 =  (text) => {
+    return text[0];
+}
+console.log(pirmaRaide3(tekstas));
+
+const  pirmaRaide4 =  text => {
+    return text[0];
+}
+console.log(pirmaRaide4(tekstas));
+
+const  pirmaRaide5 =  text =>  text[0];
+console.log(pirmaRaide5(tekstas));
+
+const  pirmaRaide6 =  s=>  s[0];
+console.log(pirmaRaide6(tekstas));
 
