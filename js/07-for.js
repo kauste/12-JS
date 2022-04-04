@@ -77,4 +77,33 @@ for(let i = nuo; i < iki; i++) {
     console.log(i)
 }
 console.log('Suma', suma)
-console.log(suma / (iki - nuo))
+
+
+//WHILE
+console.log('-------------')
+
+let sumaWhile = 0;
+let i2 = 0
+while (i2 <pazymiai){
+    const pazymys = pazymiai[i2];
+    sumaWhile += pazymys
+}
+
+// FOR-OFF  ne tuscias masyvas
+console.log('-------------')
+
+let sumaForOf = 0;
+let i3 = 0;
+for (const pazymys of pazymiai) {
+    console.log(pazymys)
+    sumaForOf += pazymys
+    console.log(`${i3}) pazymys ${pazymys} [${sumaForOf}]`);
+}
+
+// FOREACH ne tuscias masyvas
+console.log('-------------')
+let sumaForEach = 0;
+pazymiai.forEach((a, b, c) => {
+    sumaForEach += a;
+    console.log(`${a}) pazymys ${b} [${sumaForEach}]`)
+}); //(gauna dalykus){ka sujais daryti};    Ca- pazymys, b- i4, c- pazymiu blokaas) forEach daugiausia rija elekros, leciausias. prie mazu kiekiu ir vidutiniu irenginniu nesvarbu.
