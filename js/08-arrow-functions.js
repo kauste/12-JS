@@ -59,4 +59,8 @@ const tekstukas =  'Labas rytas'
 function pirmaRaide(text) {
     return text[0];
 }
-console.log(pirmaRaide(tekstas));
+console.log(pirmaRaide(tekstukas));
+
+const tekstelis = 'labuka'
+const pirmaRaide = s => s[0];
+console.log(pirmaRaide(tekstelis))
