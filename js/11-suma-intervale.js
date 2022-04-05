@@ -1,5 +1,5 @@
 //CIKLAI
-//SUMA INTERVALE
+
 
 function sumaIntervale(nuo, iki) { // imanoma ir su while
     suma = 0;
