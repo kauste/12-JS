@@ -65,3 +65,20 @@ console.log('Tokia diena savaiteje neegistuoja')}*/
          console.log('Be striukes neapseisi')  //eiliskumas kartais svarbu
      }
  }
+
+ const akys = 'melynos';
+ const plaukai = 'tamsus';
+ const amzius = 20;
+
+ if ((akys === 'melynas' || plaukai === 'tamsus') && amzius >= 20) {
+     console.log('Eisiu i pasimatyma');
+ } else {
+    console.log('Pasimatymo nebus');
+ }
+
+ const priemone = 'dviratis';
+ if (priemone === 'dviratis' || priemone === 'automobilis') {
+     console.log('kelione nusimato');
+ } else {
+     console.log('kelione nenusimato');
+ }
