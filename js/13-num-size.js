@@ -53,7 +53,12 @@ console.log(numSize1(numSize1), '----->', 'Pateikta netinkamo tipo reikšmė');
 console.log(numSize1(1.5), '----->', '2');
 console.log(numSize1(-5), '----->', '1');
 console.log(numSize1(-1.5), '----->', '2');
+
+console.log(numSize1('EXTRA...(GALVOS SKAUSMAS)');
 console.log(numSize1(0.00000000001), '----->', '1e-11');
 console.log(numSize1(1000000000000000), '----->','1e-16' );
 
+
+
 //Math.abs() – absolute reiksme
+// 1 baitas - 8 nuliu-vienetu serija. apie 256 vriantai
