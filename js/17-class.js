@@ -74,7 +74,7 @@ class Bankomatas { // KLASES IS DIDZIOSIOS, SUSITARIMO REIKALAS
             return;
         }
         this.money -= money;
-        console.log(`${this.gatve}: isgryninta ${money} pinigu`)
+        console.log(`${this.gatve}: isgryninta ${money} pinigu`);
     }
     status(){
         console.log( `${this.gatve} siuo metu pinigu likutis yra ${this.money}`)

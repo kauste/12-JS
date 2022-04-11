@@ -1,5 +1,4 @@
 /node_modules
-/
-.vscodr
+/.vscode
 package-lock.json
 .DC_Store
